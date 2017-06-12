@@ -1,0 +1,504 @@
+
+
+#about, #gallery, #location, #contact {
+	padding: 50px 5px 5px 5px;
+}
+
+#myCarousel{
+	padding: 50px 0px 0px 0px;
+}
+
+body{
+	background:
+		url(pictures/background/background-top.png) top no-repeat,
+		url(pictures/background/background-center.png) center no-repeat,
+		url(pictures/background/background-footer.png) bottom no-repeat;
+	padding-bottom: 700px;
+	padding-top: 40px;
+}
+
+footer{
+	
+}
+
+.menu_wrapper{
+	position: fixed;
+	z-index: 12;
+	width: 100%;
+    top: 0;
+    left: 0;
+	box-shadow: inset 0 0 500px rgba(0,0,0,0.8);
+}
+
+.anchor {
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    z-index: -1;
+    top: -40px;
+    left: 0;
+    visibility: hidden;
+}
+
+.menu-hm{
+	background-image: url(pictures/villaMiletti%20logo%20white.png); background-repeat: no-repeat;
+	background-size: 105px;
+	float: left;
+	width: 95px;
+	height: 95px;
+	margin-top: -30px;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+}
+
+.menubox{
+	font-family: "Robot Light", monospace;
+	font-weight: 400;
+	list-style: none;
+	text-align: center;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, .8);
+}
+
+.menubox li{
+	position: relative;
+	display: inline;
+}
+
+.menu li a{
+	margin: 20px;
+	text-decoration: none;
+	font-size: 25px;
+	color: white;
+	font-family: "Robot Light", "Arial", monospace;
+	
+}
+
+.menubox ul{
+	margin-top: 24px;
+}
+
+.language{
+	float: right;
+}
+
+.language > a {
+	text-decoration: none;
+	z-index: 1000;
+	margin-right: 50px;
+	color: #428BCA;
+	line-height: 30px;
+}
+
+.language ul li {
+	width: 140px;
+	line-height: 30px;
+}
+.language ul li a {
+	text-decoration: none;
+	clear: both;
+	white-space: nowrap;
+	margin: 0;
+	display: block;
+	width: 100%;
+	text-align: left;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.language > ul {
+	list-style: none;
+	position: absolute;
+	margin: 0;
+	z-index: 1000;
+	margin-top: 10px;
+	padding: 0;
+	right: 50px;
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0.5s ease-in, opacity 0.5s ease-in;
+	-webkit-transition: visibility 0.5s ease-in, opacity 0.5s ease-in;
+	-moz-transition: visibility 0.5s ease-in, opacity 0.5s ease-in;
+	-ms-transition: visibility 0.5s ease-in, opacity 0.5s ease-in;
+	-o-transition: visibility 0.5s ease-in, opacity 0.5s ease-in;
+}
+.language:hover a + ul {
+	visibility: visible;
+	opacity: 1;
+	transition: visibility 0.5s ease-in, opacity 0.5s ease-in;
+	-webkit-transition: visibility 0.5s ease-in, opacity 0.5s ease-in;
+	-moz-transition: visibility 0.5s ease-in, opacity 0.5s ease-in;
+	-ms-transition: visibility 0.5s ease-in, opacity 0.5s ease-in;
+	-o-transition: visibility 0.5s ease-in, opacity 0.5s ease-in;
+}
+
+ul > li > a:hover {
+	color: #72D285;
+}
+#dropdown {
+	background: rgba(171, 171, 171, 0.6);
+}
+
+#dropdown img{
+	padding: 5px;
+}
+
+section {
+	position: relative;
+}
+
+.section:target {
+    margin-top: 100px;
+}
+
+/*ZA NASLOVE IZ KONTEJNERA*/
+h1{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 45px;
+	padding-left: 5px;
+}
+
+/*PREBACIVANJE SVAKOG DRUGOG NASLOVA U DESNO*/
+.righth1{
+	text-align: right;
+	padding-right: 10px;
+}
+
+/*FONT ZA KONTEJNERE*/
+p{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 23px;
+}
+
+.container{
+	margin-top: 150px;
+	position: relative;
+}
+
+.inside{
+	background-color: #e8fad6;
+	padding-top: 1px;
+	padding-bottom: 20px;
+	text-align: justify;
+}
+
+/*ABOUT============================================================================================*/
+
+.abouttxt{
+	padding: 5px;
+}
+
+.accordion-toggle{
+	margin-left: 5px;
+}
+
+.about-container{
+	margin-top: 20px;
+	padding: 5px;
+}
+
+.abouttxt2{
+	width: 50%;
+	padding: 5px;
+	margin-top: -15px;
+}
+
+.seemore3{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.readmoretxt { font-size: 20px; padding-bottom: 50px; }
+
+/*CAROUSEL VILLA MILETI============================================================================*/
+
+#carousel-villamileti img{
+	width: 100%;
+}
+
+#carousel-villamileti,.item,.active{height:10%;}
+#carousel-villamileti{height:100%; margin-bottom: 20px; top: -240px;}
+
+/*GALLERY VIEWER===================================================================================*/
+
+.insideGallery{
+	background-color: #e8fad6;
+	padding-bottom: 5px;
+	padding-top: 1px;
+	text-align: justify;
+}
+
+#wrapper {
+    width: 100%;
+}
+
+#content {
+    position: relative;
+    overflow: hidden;
+    background: #f3f3f3;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.8);
+}
+
+/* Functionality */
+
+/* jssor slider arrow navigator skin 02 css */
+/*
+.jssora02l                  (normal)
+.jssora02r                  (normal)
+.jssora02l:hover            (normal mouseover)
+.jssora02r:hover            (normal mouseover)
+.jssora02l.jssora02ldn      (mousedown)
+.jssora02r.jssora02rdn      (mousedown)
+*/
+.jssora02l, .jssora02r {
+    display: block;
+    position: absolute;
+    /* size of arrow element */
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    background: url('pictures/a02.png') no-repeat;
+    overflow: hidden;
+}
+.jssora02l { background-position: -3px -33px; }
+.jssora02r { background-position: -63px -33px; }
+.jssora02l:hover { background-position: -123px -33px; }
+.jssora02r:hover { background-position: -183px -33px; }
+.jssora02l.jssora02ldn { background-position: -3px -33px; }
+.jssora02r.jssora02rdn { background-position: -63px -33px; }
+/* jssor slider thumbnail navigator skin 03 css */
+/*
+.jssort03 .p            (normal)
+.jssort03 .p:hover      (normal mouseover)
+.jssort03 .pav          (active)
+.jssort03 .pdn          (mousedown)
+*/
+
+.jssort03 .p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 62px;
+    height: 32px;
+}
+
+.jssort03 .t {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.jssort03 .w, .jssort03 .pav:hover .w {
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    border: #72D285 1px;
+    box-sizing: content-box;
+}
+
+.jssort03 .pdn .w, .jssort03 .pav .w {
+    border-style: solid;
+}
+
+.jssort03 .c {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 62px;
+    height: 32px;
+    background-color: #000;
+
+    filter: alpha(opacity=45);
+    opacity: .45;
+    transition: opacity .6s;
+    -moz-transition: opacity .6s;
+    -webkit-transition: opacity .6s;
+    -o-transition: opacity .6s;
+}
+
+.jssort03 .p:hover .c, .jssort03 .pav .c {
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+
+.jssort03 .p:hover .c {
+    transition: none;
+    -moz-transition: none;
+    -webkit-transition: none;
+    -o-transition: none;
+}
+
+* html .jssort03 .w {
+    width /**/: 62px;
+    height /**/: 32px;
+}
+
+/*LOCATION*/
+
+
+
+/*VISIT PLACES===================================================================================*/
+
+#visitPlaces{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.insideVP{
+	background-color: #e8fad6;
+	text-align: justify;
+}
+
+.description{
+	width: 50%;
+	height: 50%;
+	padding-left: 10px;
+	font-size: 30px;
+	
+}
+
+.carousel-captionII{
+	position: absolute;
+	right: 120px;
+	bottom: 30px;
+	z-index: 10;
+	color: #e8fad6;
+	text-align: center;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+}
+
+.pVPH{
+	padding: 10px;
+}
+
+.pVP{
+	font-size: 30px;
+	text-align: justify;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, .4);
+}
+
+/*LOCATION===================================================================================================*/
+
+#location-text-bg{
+	width: 100%;
+	height: 400px;
+	background-image: url(pictures/jo.png); background-size: cover;
+	margin-bottom: -20px;
+}
+
+#location-text{
+	width: 50%;
+	float: left;
+	margin: 10px;
+}
+
+iframe{
+	float: right;
+	width: 47%;
+}
+
+/*CONTACT====================================================================================================*/
+
+.contact-inside{
+	width: 100%;
+	float: left;
+	height: 330px;
+}
+
+#contact-form{
+	background-color: #e8fad6;
+	padding: 5px;
+	height: 330px;
+	padding-left: 10px;
+	background-image: url(pictures/bg02.png); background-size: cover;
+}
+
+.contact-inside form{
+	background-color: #a3d39c;
+	padding: 5px;
+	height: 330px;
+}
+
+#con-tittle{
+	font-size: 16px;
+	font-weight: 700;
+	padding-left: 2px;
+}
+
+div.hr {
+background: #000 no-repeat scroll center;
+margin-left: 1px;
+width: 28em;
+height: 1px;
+}
+
+div.hr hr {
+display: none;
+}
+
+.input-length{
+	width: 80%;
+}
+
+/*BACK TO TOP=============================================================================================*/
+
+.cd-top {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 100px;
+  right: 10px;
+  z-index: 10;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  /* image replacement properties */
+  overflow: hidden;
+  text-indent: 1.2%;
+  white-space: nowrap;
+  background: #a3d39c;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s;
+}
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+  -moz-transition: opacity .3s 0s, visibility 0s 0s;
+  transition: opacity .3s 0s, visibility 0s 0s;
+	cursor: pointer;
+}
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5;
+}
+.no-touch .cd-top:hover {
+  background-color: #e86256;
+  opacity: 1;
+}
+@media only screen and (min-width: 768px) {
+  .cd-top {
+    right: 20px;
+    bottom: 20px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .cd-top {
+    height: 60px;
+    width: 60px;
+	right: 30px;
+	bottom: 30px;
+	border-radius: 50px;
+  }
+}
